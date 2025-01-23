@@ -1,15 +1,18 @@
 import React from 'react';
 
 export default function Hello(){
-    // return(
-    //     <div>
-    //         <h1>Hello React!</h1>
-    //     </div>
-    // );
+    const name = "blabla"
 
-    return React.createElement(
-        'div', 
-        null, 
-        React.createElement('h1', null, "Hello React!")
+    return(
+        <div>
+            <h1>Hello {name} React!</h1>
+            <p>Example</p>
+        </div>
     );
+
+    // return React.createElement(
+    //     'div', 
+    //     {id : 'abc', className : 'test'}, 
+    //     React.createElement('h1', null, "Hello React!")
+    // );
 }
