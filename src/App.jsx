@@ -5,13 +5,12 @@ import './App.css'
 import Hello from './components/Hello'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
+import Counter from './components/Counter'
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Header />
-      <Hello />
+      <Counter/>
     </div>
   );
 }
