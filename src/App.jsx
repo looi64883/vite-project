@@ -6,11 +6,15 @@ import Hello from './components/Hello'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Counter from './components/Counter'
+import ItemList from './components/ItemList'
+import ItemListClassComp from './components/ItemListClassComp'
 
 function App() {
   return (
     <div>
-      <Counter/>
+      {/* <Counter/> */}
+      {/* <ItemList/> */}
+      <ItemListClassComp/>
     </div>
   );
 }
